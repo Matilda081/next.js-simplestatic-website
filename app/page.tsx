@@ -10,6 +10,7 @@ import TestimonySection from "@/components/TestimonySection";
 import PluginsSection from "@/components/PluginsSection";
 import ReadySection from "@/components/ReadySection";
 import Footer from "@/components/Footer";
+import StickyHand from "@/components/StickyHand";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <PluginsSection/>
       <ReadySection/>
       <Footer/>
+      <StickyHand/>
     </div>
   );
 }
